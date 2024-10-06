@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="app.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="Calculadora">
+        <p id="display" class="display"></p>
+        
+        <button class="calc-button" onclick="appendNumber('+')">
+            +
+        </button>
+        <button class="calc-button" onclick="appendNumber('-')">
+            -
+        </button>
+        <button class="calc-button" onclick="appendNumber('*')">
+            x
+        </button>
+        <button class="calc-button" onclick="appendNumber('/')">
+            /
+        </button>
+        <button class="calc-button-seven" onclick="appendNumber('7')">
+            7
+        </button>
+        <button class="calc-button-eight" onclick="appendNumber('8')">
+            8
+        </button>
+        <button class="calc-button-nine" onclick="appendNumber('9')">
+            9
+        </button>
+        <button class="calc-button-equal" onclick="calcular()">
+            =
+        </button>
+        <button class="calc-button-four" onclick="appendNumber('4')">
+            4
+        </button>
+        <button class="calc-button-five" onclick="appendNumber('5')">
+            5
+        </button>
+        <button class="calc-button-six" onclick="appendNumber('6')">
+            6
+        </button>
+        <button class="calc-button-one" onclick="appendNumber('1')">
+            1
+        </button>
+        <button class="calc-button-two" onclick="appendNumber('2')">
+            2
+        </button>
+        <button class="calc-button-tree" onclick="appendNumber('3')">
+            3
+        </button>
+        <button class="calc-button-zero" onclick="appendNumber('0')"> 
+            0
+        </button>
+        <button class="calc-button-point" onclick="appendNumber('.')">
+            .
+        </button>
+        <button class="calc-button-C" onclick="delNumber()">
+            C
+        </button>
+    </div> 
+</body>
+</html>
